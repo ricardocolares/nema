@@ -2,6 +2,7 @@
   "name": "nema",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://nemaufc.com.br/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
