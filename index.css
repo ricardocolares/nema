@@ -1,0 +1,79 @@
+.background {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundImage {
+  width: 240px; /* Largura desejada */
+  height: 240px; /* Altura desejada */
+  object-fit: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Move a imagem de volta para alinhar ao centro */
+  z-index: -1; /* Define um índice de empilhamento para trás */
+}
+
+.textContainer {
+  z-index: 1; /* Garante que o conteúdo fique na frente da imagem */
+}
+
+.h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.h1 {
+  margin-top: 100px;
+  font-size: 32px;
+  color: black
+}
+
+.text-section {
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.p {
+  font-size: 0.8rem;
+  margin-left: 155px;
+  margin-right: 155px;
+  text-align: justify;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF6E21;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo img {
+  margin-left: 240px;
+  max-height: 64px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-right: 240px;
+  font-size: 1.2rem;
+}
+
+.navList li {
+  margin-left: 32px;
+}
