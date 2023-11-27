@@ -76,3 +76,17 @@ nav img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ICONBOX */
+
+.iconbox {
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  aligh-items: center;
+  justify-content: center;
+  background: rgba(var(--c-primary), 0.2);
+  color: var(--c-primary);
+  font-size: 34px;
+  flex: none;
+}
