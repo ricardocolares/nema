@@ -83,7 +83,7 @@ nav img {
   width: 70px;
   height: 70px;
   display: inline-flex;
-  aligh-items: center;
+  align-items: center;
   justify-content: center;
   background: rgba(var(--c-primary), 0.2);
   color: var(--c-primary);
